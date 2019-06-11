@@ -16,7 +16,7 @@ from .funcbook import get_converter
 from .wrapper import tf2onnx_wrap, TFNODES
 
 
-DEFAULT_BATCH_SIZE = 'None'
+DEFAULT_BATCH_SIZE = 1
 
 
 def _infer_variable_type(tensor, default_batch_size=DEFAULT_BATCH_SIZE):
